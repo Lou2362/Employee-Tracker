@@ -1,0 +1,35 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Node.js and SQL Employee Tracker designed to run in terminal.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllieStewart/Employee-Tracker.git"
+  },
+  "keywords": [
+    "employee",
+    "tracker",
+    "sql",
+    "node.js",
+    "ut",
+    "bootcamp",
+    "challenge",
+    "12"
+  ],
+  "author": "Allie Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllieStewart/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/AllieStewart/Employee-Tracker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.2"
+  }
+}
